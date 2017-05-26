@@ -1,0 +1,16 @@
+PODS:
+  - QCCaptureSwift (0.1.0)
+
+DEPENDENCIES:
+  - QCCaptureSwift (from `../`)
+
+EXTERNAL SOURCES:
+  QCCaptureSwift:
+    :path: ../
+
+SPEC CHECKSUMS:
+  QCCaptureSwift: bc645f4dd47d75d37e33f3ba73a8827b151d05aa
+
+PODFILE CHECKSUM: e9024325b9e2e155739c1ff13cd153713b2b44d4
+
+COCOAPODS: 1.2.1

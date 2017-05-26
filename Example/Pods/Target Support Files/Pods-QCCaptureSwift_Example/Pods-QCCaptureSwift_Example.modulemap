@@ -1,0 +1,6 @@
+framework module Pods_QCCaptureSwift_Example {
+  umbrella header "Pods-QCCaptureSwift_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module QCCaptureSwift {
+  umbrella header "QCCaptureSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

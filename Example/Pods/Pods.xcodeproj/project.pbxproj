@@ -1,0 +1,733 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05BBA5F0046BCC5A0543146D03C8A1BE /* Pods-QCCaptureSwift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 972C86C8E4DB0341B7138A6FD4A16215 /* Pods-QCCaptureSwift_Tests-dummy.m */; };
+		101ED8C2B3551D78F35BB62008D9FF28 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		37E64150EE3AE640B7A02FBD41917DAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		50B6005E44DC46154A70535077F25147 /* QCCaptureSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DB535F910A897DF42C9CCF75A9A53C /* QCCaptureSwift-dummy.m */; };
+		5C7F5B077CB8EB18EC6F5442DE5C49BF /* QCCaptureSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A9441179B2293D27EDDA6CA1B018A96D /* QCCaptureSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61A9C09351857469596512C6C6C2A803 /* Pods-QCCaptureSwift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B494B86D3CC832ACBF836024F8013E0 /* Pods-QCCaptureSwift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EFBF5F56D1D68700E9A4E5D4E1FB6FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C0972B991ED7B56E0065032C /* AVCaptureConnection+QC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0972B961ED7B56E0065032C /* AVCaptureConnection+QC.swift */; };
+		C0972B9A1ED7B56E0065032C /* AVCaptureSession+QC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0972B971ED7B56E0065032C /* AVCaptureSession+QC.swift */; };
+		C0972B9B1ED7B56E0065032C /* AVCaptureStillImageOutput+QC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0972B981ED7B56E0065032C /* AVCaptureStillImageOutput+QC.swift */; };
+		D26DB474D0FC4536C45EDD2EEF697895 /* Pods-QCCaptureSwift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1076B232A744D68908E2B99CC9ADAD9 /* Pods-QCCaptureSwift_Example-dummy.m */; };
+		DD905FE9A65217C7C3A7853AAAFED9AF /* Pods-QCCaptureSwift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75D1E6FB28456E109408EE3E17E40EB7 /* Pods-QCCaptureSwift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02B0CB729BC49B6BFFAE935F4F8C5BA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74B781DA5CD6BC46B94E21286065ADA4;
+			remoteInfo = QCCaptureSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07DB535F910A897DF42C9CCF75A9A53C /* QCCaptureSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QCCaptureSwift-dummy.m"; sourceTree = "<group>"; };
+		260D51EC12035075220DDF2F84D1BBDA /* Pods-QCCaptureSwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QCCaptureSwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		33D3AC99F8CAAD400E078ECAB5E0A089 /* QCCaptureSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = QCCaptureSwift.modulemap; sourceTree = "<group>"; };
+		39D778E7BD7BB5492EF8826638BC5C6D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C6B5515B13E8F935C8B7C976DF29A9A /* Pods-QCCaptureSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QCCaptureSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
+		55ED8A697299C0451768F33E0122EF14 /* Pods-QCCaptureSwift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-QCCaptureSwift_Example.modulemap"; sourceTree = "<group>"; };
+		56E2EE1062498DBD9323727912593A7C /* Pods-QCCaptureSwift_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QCCaptureSwift_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5BCA1D8F842FD46290F4ABC87ED45988 /* Pods_QCCaptureSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QCCaptureSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		72165CF2C41842F8AE851C7B7BEEA2C9 /* Pods-QCCaptureSwift_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QCCaptureSwift_Tests-resources.sh"; sourceTree = "<group>"; };
+		75D1E6FB28456E109408EE3E17E40EB7 /* Pods-QCCaptureSwift_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QCCaptureSwift_Tests-umbrella.h"; sourceTree = "<group>"; };
+		7ADBC290BDAEA9810D7D88734524BDC7 /* Pods-QCCaptureSwift_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QCCaptureSwift_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96C49FB3D07B9E55B3E7B1B3BF9258DE /* Pods_QCCaptureSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QCCaptureSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		972C86C8E4DB0341B7138A6FD4A16215 /* Pods-QCCaptureSwift_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QCCaptureSwift_Tests-dummy.m"; sourceTree = "<group>"; };
+		9A9C5D76BA9DE69F1B2754D3BF7F2B73 /* Pods-QCCaptureSwift_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QCCaptureSwift_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9B494B86D3CC832ACBF836024F8013E0 /* Pods-QCCaptureSwift_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QCCaptureSwift_Example-umbrella.h"; sourceTree = "<group>"; };
+		9C2456B2A9F756B5B3E0FA727B85908A /* QCCaptureSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QCCaptureSwift.xcconfig; sourceTree = "<group>"; };
+		A56D7C719FE49A9A91BF49BCFF78EA31 /* QCCaptureSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QCCaptureSwift-prefix.pch"; sourceTree = "<group>"; };
+		A9441179B2293D27EDDA6CA1B018A96D /* QCCaptureSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QCCaptureSwift-umbrella.h"; sourceTree = "<group>"; };
+		B2625DDEAD08A49E43FFEBFD384352E3 /* Pods-QCCaptureSwift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QCCaptureSwift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B732E34643AA34BEF05B5F147235912F /* Pods-QCCaptureSwift_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QCCaptureSwift_Example-resources.sh"; sourceTree = "<group>"; };
+		B7CD025D793655EB6148F25F3B39A99E /* Pods-QCCaptureSwift_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QCCaptureSwift_Example-frameworks.sh"; sourceTree = "<group>"; };
+		BDE3F31A3382B3BF326ACBD51036E79C /* QCCaptureSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QCCaptureSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0972B961ED7B56E0065032C /* AVCaptureConnection+QC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVCaptureConnection+QC.swift"; sourceTree = "<group>"; };
+		C0972B971ED7B56E0065032C /* AVCaptureSession+QC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVCaptureSession+QC.swift"; sourceTree = "<group>"; };
+		C0972B981ED7B56E0065032C /* AVCaptureStillImageOutput+QC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVCaptureStillImageOutput+QC.swift"; sourceTree = "<group>"; };
+		C662DCA8B8999C1CB0A5923DDBC0A044 /* Pods-QCCaptureSwift_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-QCCaptureSwift_Tests.modulemap"; sourceTree = "<group>"; };
+		CB32899D9643FAA5832B32F1BFDC339E /* Pods-QCCaptureSwift_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QCCaptureSwift_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		D1076B232A744D68908E2B99CC9ADAD9 /* Pods-QCCaptureSwift_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QCCaptureSwift_Example-dummy.m"; sourceTree = "<group>"; };
+		DB25677D896FCFC73439A1D45A65652A /* Pods-QCCaptureSwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QCCaptureSwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		DE75E518C7FE9D1EE8E22C56475E2812 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E10380CA44D6A381D88FB49D0BB9BFF7 /* Pods-QCCaptureSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QCCaptureSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		EAA38C9768102D2B0BF909DF6BE3AEAC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		552AB26D143E66A34E8EA35B7EA3B3CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EFBF5F56D1D68700E9A4E5D4E1FB6FD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74FC6ABA37D37E3C1D93CEE71A4C2E93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				101ED8C2B3551D78F35BB62008D9FF28 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A353C3C83E13DEC709B4BD04087F7CAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37E64150EE3AE640B7A02FBD41917DAA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		063CCE132B3E44949984C4F9B3E9A024 /* QCCaptureSwift */ = {
+			isa = PBXGroup;
+			children = (
+				A35C30A01313081BFFC59038F8891B2E /* QCCaptureSwift */,
+				EFF5CBF72922D677EB9F88493EF16BAC /* Support Files */,
+			);
+			name = QCCaptureSwift;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		06695BED91FB85404D5A1A8814C2D77A /* Pods-QCCaptureSwift_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				39D778E7BD7BB5492EF8826638BC5C6D /* Info.plist */,
+				C662DCA8B8999C1CB0A5923DDBC0A044 /* Pods-QCCaptureSwift_Tests.modulemap */,
+				56E2EE1062498DBD9323727912593A7C /* Pods-QCCaptureSwift_Tests-acknowledgements.markdown */,
+				9A9C5D76BA9DE69F1B2754D3BF7F2B73 /* Pods-QCCaptureSwift_Tests-acknowledgements.plist */,
+				972C86C8E4DB0341B7138A6FD4A16215 /* Pods-QCCaptureSwift_Tests-dummy.m */,
+				CB32899D9643FAA5832B32F1BFDC339E /* Pods-QCCaptureSwift_Tests-frameworks.sh */,
+				72165CF2C41842F8AE851C7B7BEEA2C9 /* Pods-QCCaptureSwift_Tests-resources.sh */,
+				75D1E6FB28456E109408EE3E17E40EB7 /* Pods-QCCaptureSwift_Tests-umbrella.h */,
+				260D51EC12035075220DDF2F84D1BBDA /* Pods-QCCaptureSwift_Tests.debug.xcconfig */,
+				DB25677D896FCFC73439A1D45A65652A /* Pods-QCCaptureSwift_Tests.release.xcconfig */,
+			);
+			name = "Pods-QCCaptureSwift_Tests";
+			path = "Target Support Files/Pods-QCCaptureSwift_Tests";
+			sourceTree = "<group>";
+		};
+		40B372B381E984593B8225F81C371957 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C0972B961ED7B56E0065032C /* AVCaptureConnection+QC.swift */,
+				C0972B971ED7B56E0065032C /* AVCaptureSession+QC.swift */,
+				C0972B981ED7B56E0065032C /* AVCaptureStillImageOutput+QC.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		6A54C0C1B496599D110AEE9927303DCD /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				063CCE132B3E44949984C4F9B3E9A024 /* QCCaptureSwift */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				6A54C0C1B496599D110AEE9927303DCD /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				86E983B3C0028153CD06EE3B8820F18E /* Products */,
+				85B78BF35CB2E4E799DBD3E1876479EE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		84ECC9A1A1B349E07D13B6D117862B82 /* Pods-QCCaptureSwift_Example */ = {
+			isa = PBXGroup;
+			children = (
+				EAA38C9768102D2B0BF909DF6BE3AEAC /* Info.plist */,
+				55ED8A697299C0451768F33E0122EF14 /* Pods-QCCaptureSwift_Example.modulemap */,
+				7ADBC290BDAEA9810D7D88734524BDC7 /* Pods-QCCaptureSwift_Example-acknowledgements.markdown */,
+				B2625DDEAD08A49E43FFEBFD384352E3 /* Pods-QCCaptureSwift_Example-acknowledgements.plist */,
+				D1076B232A744D68908E2B99CC9ADAD9 /* Pods-QCCaptureSwift_Example-dummy.m */,
+				B7CD025D793655EB6148F25F3B39A99E /* Pods-QCCaptureSwift_Example-frameworks.sh */,
+				B732E34643AA34BEF05B5F147235912F /* Pods-QCCaptureSwift_Example-resources.sh */,
+				9B494B86D3CC832ACBF836024F8013E0 /* Pods-QCCaptureSwift_Example-umbrella.h */,
+				E10380CA44D6A381D88FB49D0BB9BFF7 /* Pods-QCCaptureSwift_Example.debug.xcconfig */,
+				3C6B5515B13E8F935C8B7C976DF29A9A /* Pods-QCCaptureSwift_Example.release.xcconfig */,
+			);
+			name = "Pods-QCCaptureSwift_Example";
+			path = "Target Support Files/Pods-QCCaptureSwift_Example";
+			sourceTree = "<group>";
+		};
+		85B78BF35CB2E4E799DBD3E1876479EE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				84ECC9A1A1B349E07D13B6D117862B82 /* Pods-QCCaptureSwift_Example */,
+				06695BED91FB85404D5A1A8814C2D77A /* Pods-QCCaptureSwift_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		86E983B3C0028153CD06EE3B8820F18E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BCA1D8F842FD46290F4ABC87ED45988 /* Pods_QCCaptureSwift_Example.framework */,
+				96C49FB3D07B9E55B3E7B1B3BF9258DE /* Pods_QCCaptureSwift_Tests.framework */,
+				BDE3F31A3382B3BF326ACBD51036E79C /* QCCaptureSwift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A35C30A01313081BFFC59038F8891B2E /* QCCaptureSwift */ = {
+			isa = PBXGroup;
+			children = (
+				40B372B381E984593B8225F81C371957 /* Classes */,
+			);
+			path = QCCaptureSwift;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EFF5CBF72922D677EB9F88493EF16BAC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE75E518C7FE9D1EE8E22C56475E2812 /* Info.plist */,
+				33D3AC99F8CAAD400E078ECAB5E0A089 /* QCCaptureSwift.modulemap */,
+				9C2456B2A9F756B5B3E0FA727B85908A /* QCCaptureSwift.xcconfig */,
+				07DB535F910A897DF42C9CCF75A9A53C /* QCCaptureSwift-dummy.m */,
+				A56D7C719FE49A9A91BF49BCFF78EA31 /* QCCaptureSwift-prefix.pch */,
+				A9441179B2293D27EDDA6CA1B018A96D /* QCCaptureSwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/QCCaptureSwift";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		17BE573635B93A265B3BE84A1F3AB621 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD905FE9A65217C7C3A7853AAAFED9AF /* Pods-QCCaptureSwift_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0C183CCE6FFDB4F5F2E337503E02CF2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61A9C09351857469596512C6C6C2A803 /* Pods-QCCaptureSwift_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E06A63E9CD72C588D566B8EA519E123C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C7F5B077CB8EB18EC6F5442DE5C49BF /* QCCaptureSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		74B781DA5CD6BC46B94E21286065ADA4 /* QCCaptureSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 099FFB6576528AE0A9ED28D3A91C1DBC /* Build configuration list for PBXNativeTarget "QCCaptureSwift" */;
+			buildPhases = (
+				6E0D079FA06419F8A778D9022D977107 /* Sources */,
+				552AB26D143E66A34E8EA35B7EA3B3CC /* Frameworks */,
+				E06A63E9CD72C588D566B8EA519E123C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QCCaptureSwift;
+			productName = QCCaptureSwift;
+			productReference = BDE3F31A3382B3BF326ACBD51036E79C /* QCCaptureSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A178253C4DE1B9FEC118FC049029B2C6 /* Pods-QCCaptureSwift_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8F61D231915B3D6E58C09BE74C28722 /* Build configuration list for PBXNativeTarget "Pods-QCCaptureSwift_Tests" */;
+			buildPhases = (
+				D1AD9B5BF02407ADBB52DCA7CE2D18D1 /* Sources */,
+				74FC6ABA37D37E3C1D93CEE71A4C2E93 /* Frameworks */,
+				17BE573635B93A265B3BE84A1F3AB621 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-QCCaptureSwift_Tests";
+			productName = "Pods-QCCaptureSwift_Tests";
+			productReference = 96C49FB3D07B9E55B3E7B1B3BF9258DE /* Pods_QCCaptureSwift_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A2D488F515AB24BCE0656F2DAF92953C /* Pods-QCCaptureSwift_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52947B9BEA292CA2561C0044465FE684 /* Build configuration list for PBXNativeTarget "Pods-QCCaptureSwift_Example" */;
+			buildPhases = (
+				3331B7014068C78FDD357DD070153FB4 /* Sources */,
+				A353C3C83E13DEC709B4BD04087F7CAA /* Frameworks */,
+				A0C183CCE6FFDB4F5F2E337503E02CF2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A0C47C28A8697AAC5A6A6AC0AF1E24F /* PBXTargetDependency */,
+			);
+			name = "Pods-QCCaptureSwift_Example";
+			productName = "Pods-QCCaptureSwift_Example";
+			productReference = 5BCA1D8F842FD46290F4ABC87ED45988 /* Pods_QCCaptureSwift_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 86E983B3C0028153CD06EE3B8820F18E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2D488F515AB24BCE0656F2DAF92953C /* Pods-QCCaptureSwift_Example */,
+				A178253C4DE1B9FEC118FC049029B2C6 /* Pods-QCCaptureSwift_Tests */,
+				74B781DA5CD6BC46B94E21286065ADA4 /* QCCaptureSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3331B7014068C78FDD357DD070153FB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D26DB474D0FC4536C45EDD2EEF697895 /* Pods-QCCaptureSwift_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E0D079FA06419F8A778D9022D977107 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50B6005E44DC46154A70535077F25147 /* QCCaptureSwift-dummy.m in Sources */,
+				C0972B9B1ED7B56E0065032C /* AVCaptureStillImageOutput+QC.swift in Sources */,
+				C0972B991ED7B56E0065032C /* AVCaptureConnection+QC.swift in Sources */,
+				C0972B9A1ED7B56E0065032C /* AVCaptureSession+QC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1AD9B5BF02407ADBB52DCA7CE2D18D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05BBA5F0046BCC5A0543146D03C8A1BE /* Pods-QCCaptureSwift_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A0C47C28A8697AAC5A6A6AC0AF1E24F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QCCaptureSwift;
+			target = 74B781DA5CD6BC46B94E21286065ADA4 /* QCCaptureSwift */;
+			targetProxy = 02B0CB729BC49B6BFFAE935F4F8C5BA6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		182FC43876A10A56A536B95F8178E4AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C6B5515B13E8F935C8B7C976DF29A9A /* Pods-QCCaptureSwift_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-QCCaptureSwift_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QCCaptureSwift_Example/Pods-QCCaptureSwift_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_QCCaptureSwift_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		390BD783FE02C7069D7A88D5C9EC1A98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 260D51EC12035075220DDF2F84D1BBDA /* Pods-QCCaptureSwift_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-QCCaptureSwift_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QCCaptureSwift_Tests/Pods-QCCaptureSwift_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_QCCaptureSwift_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FD4185186A7E5A477C916EE73E57131 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB25677D896FCFC73439A1D45A65652A /* Pods-QCCaptureSwift_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-QCCaptureSwift_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QCCaptureSwift_Tests/Pods-QCCaptureSwift_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_QCCaptureSwift_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A7C72AA5D553A6659510DCE6600B0CAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C2456B2A9F756B5B3E0FA727B85908A /* QCCaptureSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/QCCaptureSwift/QCCaptureSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QCCaptureSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QCCaptureSwift/QCCaptureSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = QCCaptureSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C760CF637F5892895DC098AF4126CEAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E10380CA44D6A381D88FB49D0BB9BFF7 /* Pods-QCCaptureSwift_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-QCCaptureSwift_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QCCaptureSwift_Example/Pods-QCCaptureSwift_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_QCCaptureSwift_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E9F60BB7D7CDD7514836355F91632AAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C2456B2A9F756B5B3E0FA727B85908A /* QCCaptureSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/QCCaptureSwift/QCCaptureSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QCCaptureSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QCCaptureSwift/QCCaptureSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = QCCaptureSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		099FFB6576528AE0A9ED28D3A91C1DBC /* Build configuration list for PBXNativeTarget "QCCaptureSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7C72AA5D553A6659510DCE6600B0CAA /* Debug */,
+				E9F60BB7D7CDD7514836355F91632AAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52947B9BEA292CA2561C0044465FE684 /* Build configuration list for PBXNativeTarget "Pods-QCCaptureSwift_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C760CF637F5892895DC098AF4126CEAF /* Debug */,
+				182FC43876A10A56A536B95F8178E4AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8F61D231915B3D6E58C09BE74C28722 /* Build configuration list for PBXNativeTarget "Pods-QCCaptureSwift_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				390BD783FE02C7069D7A88D5C9EC1A98 /* Debug */,
+				7FD4185186A7E5A477C916EE73E57131 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "QCCaptureSwift",
+  "version": "0.1.0",
+  "summary": "A short description of QCCaptureSwift.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/qichen0401/QCCaptureSwift",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "qichen0401": "qichen0401@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/qichen0401/QCCaptureSwift.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "QCCaptureSwift/Classes/**/*"
+}
