@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'QCCaptureSwift_Example' do
+  pod 'QCCaptureSwift', :path => '../'
+
+  target 'QCCaptureSwift_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
